@@ -46,6 +46,6 @@ There are only 2 routes (see here): `src/upload/upload.controller.ts`
 
 ## PS
 
-To save time, since the project is a test one, the following wasn't used: `Swagger, Prettier, ESlint, DB Migrations, Tests`
+To save time, since the project is a test one and also quite small, the following wasn't used: `Swagger, Prettier, ESlint, Docker Swarm, DB Migrations, Tests`
 
 **_I'll be glad to discuss successful and not so successful solutions at the meeting :)_**
