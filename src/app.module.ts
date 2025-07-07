@@ -2,7 +2,6 @@ import { Module } from '@nestjs/common';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { UploadModule } from './upload/upload.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
-// import { UploadedFile } from './upload/entities/uploaded-file.entity';
 import { BullModule } from '@nestjs/bull';
 
 @Module({
