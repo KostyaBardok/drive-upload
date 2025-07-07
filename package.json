@@ -1,0 +1,37 @@
+{
+    "name": "nestjs-upload-drive",
+    "version": "1.0.0",
+    "description": "NestJS service to upload files from URLs to Google Drive",
+    "main": "dist/main.js",
+    "scripts": {
+        "start": "nest start",
+        "start:dev": "nest start --watch",
+        "build": "nest build",
+        "start:prod": "node build/main"
+    },
+    "dependencies": {
+        "@nestjs/bull": "^11.0.2",
+        "@nestjs/common": "^11.1.3",
+        "@nestjs/config": "^4.0.2",
+        "@nestjs/core": "^11.1.3",
+        "@nestjs/platform-express": "^11.1.3",
+        "@nestjs/typeorm": "^11.0.0",
+        "axios": "^1.10.0",
+        "bull": "^4.16.5",
+        "class-transformer": "^0.5.1",
+        "class-validator": "^0.14.2",
+        "googleapis": "^150.0.1",
+        "pg": "^8.16.3",
+        "reflect-metadata": "^0.2.2",
+        "rimraf": "^6.0.1",
+        "rxjs": "^7.8.2",
+        "typeorm": "^0.3.25",
+        "uuid": "^11.1.0"
+    },
+    "devDependencies": {
+        "@nestjs/cli": "^11.0.7",
+        "ts-loader": "^9.5.2",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.8.3"
+    }
+}

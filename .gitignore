@@ -1,0 +1,9 @@
+.idea/
+.vscode/
+node_modules
+build
+postgres
+.env
+.DS_Store
+*.log
+credentials.json
